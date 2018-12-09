@@ -48,11 +48,22 @@
   right: 9px;
 }
 
+.black-icon{
+  color: #000000;
+}
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 27px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .bag-bell {
+    top: 0.5em;
+    right: auto;
+    left: 1.8em;
   }
 }

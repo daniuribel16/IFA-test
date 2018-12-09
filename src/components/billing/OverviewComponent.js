@@ -14,8 +14,12 @@ export default class Overview extends Component {
                         <div className="row">
                             <div className="col-xs-6 info-labels">Status</div>
                             <div className="col-xs-6 float-right info-labels">
-                                <span className="pull-right font-weight-bold active-status">
-                                    <i class="fas fa-check"></i>{this.props.overviewInfo.status}
+                                <span className={this.props.overviewInfo.status === 'Active' ? 
+                                                "pull-right font-weight-bold active-status": 
+                                                "pull-right font-weight-bold inactive-status"}>
+                                    <i className={this.props.overviewInfo.status === 'Active' ? 
+                                                "fas fa-check": "fas fa-times"}></i>
+                                                {` ${this.props.overviewInfo.status}`}
                                 </span>
                             </div>
                         </div>

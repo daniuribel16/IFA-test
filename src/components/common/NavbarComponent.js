@@ -33,7 +33,7 @@ export default class Navbar extends Component {
                   
                     <li><Link to="empty"><i className="fas fa-search"></i></Link></li>
                     <li><Link to="empty"><i className="far fa-question-circle"></i></Link></li>
-                    <li><Link to="empty"><i className="fas fa-bell"></i></Link>
+                    <li><Link to="empty"><i className="fas fa-bell black-icon"></i></Link>
                       <div className="bag-bell"></div>
                     </li>
                     <li className="dropdown">
