@@ -14,7 +14,9 @@ export default class Billing extends Component {
                     <div className=".col-xs-12">
                         <h2>
                             <b>Invoice </b> 
-                            <span className="invoice-number">{billingInfo.invoice}</span>
+                            <span className="invoice-number"
+                            data-toggle="tooltip" title="Invoice Number">
+                            {billingInfo.invoice}</span>
                         </h2>
                     </div>
                 </div>
@@ -24,5 +26,4 @@ export default class Billing extends Component {
             </div>
         );
     }
-
 }

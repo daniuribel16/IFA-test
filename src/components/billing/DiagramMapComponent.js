@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Map from '../utilities/mapComponent';
 import diagram from '../../assets/images/diagram.PNG';
 
 export default class DiagramMap extends Component {
 
     state = {
-        isDiagram: true,
-        pillActive: 'diagram'
+        isDiagram: true
     };
 
     clickPill = (isDiagram) => {
@@ -35,7 +33,7 @@ export default class DiagramMap extends Component {
                 <div className="container info-container">
                     <div className="col-sm-12 billing-section">
                         {this.state.isDiagram ?
-                            (<img src={diagram} class="diagram-image" alt="diagram" />) :
+                            (<img src={diagram} className="diagram-image" alt="diagram" />) :
                             (<Map location={this.props.location} />)}
                     </div>
 

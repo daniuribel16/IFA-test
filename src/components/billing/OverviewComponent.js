@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 export default class Overview extends Component {
 
     render() {
@@ -66,5 +65,4 @@ export default class Overview extends Component {
             </div>
         );
     }
-
 }

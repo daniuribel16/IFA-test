@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 
 export default class Invoice extends Component {
     
-    // componentDidMount = () => {
-    //     this.setSectionHeight();
-    // };
-
     render() {
         return (
             <div id="invoice-container" className="container info-container">
@@ -48,18 +43,4 @@ export default class Invoice extends Component {
             </div>
         );
     }
-
-    // setSectionHeight = () => {
-    //     let lstSections = $('#invoice-container .billing-section');
-    //     let maxHeight = 0;
-    //     lstSections.each((i, el) => {
-    //         console.log(el.offsetHeight);
-    //         maxHeight = i === 0 ? el.clientHeight : 
-    //         (el.clientHeight > maxHeight ? el.clientHeight :maxHeight);
-    //     });
-    //     lstSections.each((i, el) => {
-    //         $(el).css({'height': maxHeight});
-    //     });
-    // }
-
 }
