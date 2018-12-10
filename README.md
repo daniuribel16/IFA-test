@@ -3,7 +3,7 @@
 IFA test
 
 You can see a demo 
-[a here](https://github.com/user/repo/blob/branch/other_file.md)
+[here](https://ifa-frontend-test.herokuapp.com)
 
 ## Run project
 
